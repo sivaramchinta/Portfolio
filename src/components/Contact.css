@@ -1,0 +1,20 @@
+#Contact{
+    height: 100vh;
+}
+.footer{
+    column-gap: 17px;
+}
+.heading{
+    color: rgb(203, 203, 0);
+}
+.nav-link{
+    color: white;
+}
+.nav-item .nounderline::after{
+    background-color: transparent;
+    color: rgb(68, 255, 0);
+}
+.nav{
+    --bs-nav-link-color: rgb(70, 183, 0);
+    --bs-nav-link-hover-color: rgb(93, 193, 0);
+}

@@ -1,0 +1,46 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(30,30,30);
+}
+p{
+    color: white;
+    text-align: justify;
+}
+h1{
+    text-shadow: 2px 2px 20px black;
+}
+@media  (max-width:575px){
+  p,li{
+    font-size:x-small;
+  }  
+  h4,.form-label{
+    font-size: small;
+  }
+}
+
+@media  (min-width:575px) and (max-width:1023px){
+    p,li{
+        font-size:medium;
+    }
+    h4{
+        font-size: large;
+    }
+}
+@media  (min-width:1024px){
+    p,li{
+        font-size: large;
+    }
+    h4{
+        font-size: larger;
+        color: rgb(0, 195, 33) !important;
+    }
+        
+}

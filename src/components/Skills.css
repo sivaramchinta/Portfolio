@@ -1,0 +1,27 @@
+.progress-bar{
+    background-color: rgb(197, 197, 197);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+}
+li{
+    margin-top: 10px;
+}
+.progress{
+    background-color: rgb(66, 64, 64);
+    height: 10px;
+    font-size: 9px;
+    box-shadow: 2px 2px 20px rgb(29, 29, 29) !important;
+}
+
+h4{
+    color: yellow;
+}
+
+.box{
+    border: 2px solid rgb(129, 127, 127);
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 20px black;
+}
